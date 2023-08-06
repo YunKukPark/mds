@@ -1,3 +1,57 @@
+const fontSizes = {
+  h1: '72px',
+  h2: '60px',
+  h3: '48px',
+  h4: '34px',
+  h5: '24px',
+  h6: '22px',
+  body1: '20px',
+  body2: '16px',
+  body3: '14px',
+  caption: '12px',
+  buttonLg: '16px',
+  buttonMd: '14px',
+  buttonSm: '12px',
+  label: '12px',
+  chip: '13px',
+};
+
+const lineHeights = {
+  h1: '72px',
+  h2: '60px',
+  h3: '48px',
+  h4: '34px',
+  h5: '28px',
+  h6: '22px',
+  body1: '26px',
+  body2: '24px',
+  body3: '18px',
+  caption: '18px',
+  buttonLg: '24px',
+  buttonMd: '20px',
+  buttonSm: '16px',
+  label: '16px',
+  chip: '20px',
+};
+
+const letterSpacings = {
+  h1: '0.5px',
+  h2: '0.5px',
+  h3: '0.5px',
+  h4: '0.5px',
+  h5: '0.5px',
+  h6: '0.5px',
+  body1: '0.5px',
+  body2: '0.5px',
+  body3: '0.5px',
+  caption: '0.5px',
+  buttonLg: '0.5px',
+  buttonMd: '0.5px',
+  buttonSm: '0.5px',
+  label: '0.5px',
+  chip: '0.5px',
+};
+
 const colors = {
   primary: {
     main: '#6B68FF',
@@ -46,6 +100,9 @@ const colors = {
 
 const theme = {
   colors,
+  fontSizes,
+  lineHeights,
+  letterSpacings,
 };
 
 export default theme;
