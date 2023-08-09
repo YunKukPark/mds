@@ -1,52 +1,57 @@
 import { Meta, Typeset } from '@storybook/blocks';
-import theme from '../theme';
+import { theme } from '@shared/theme';
 
-<Meta title="Typography/Base" />
+<Meta title="Token/Typography" />
 
 # Typography
 
 **Font:** Noto Sans KR
 
-**Weights:** 400(regular), 500(medium), 700(bold), 800(extrabold), 900(black)
+**Weights:** 400(regular), 500(medium), 700(bold), 900(black)
 
-## Headers
+## Title (900)
 
 <Typeset
   fontSizes={[
-    parseInt(theme.fontSizes.h1),
-    parseInt(theme.fontSizes.h2),
-    parseInt(theme.fontSizes.h3),
-    parseInt(theme.fontSizes.h4),
-    parseInt(theme.fontSizes.h5),
-    parseInt(theme.fontSizes.h6),
+    theme.fontSizes.fontSize7,
+    theme.fontSizes.fontSize8,
+    theme.fontSizes.fontSize9,
+  ]}
+  sampleText="다람쥐 헌 쳇바퀴에 타고파"
+  fontWeight={900}
+/>
+
+## Headers (700)
+
+<Typeset
+  fontSizes={[
+    theme.fontSizes.fontSize1,
+    theme.fontSizes.fontSize2,
+    theme.fontSizes.fontSize3,
+    theme.fontSizes.fontSize4,
+    theme.fontSizes.fontSize5,
+    theme.fontSizes.fontSize6,
+    theme.fontSizes.fontSize7,
+    theme.fontSizes.fontSize8,
+    theme.fontSizes.fontSize9,
   ]}
   sampleText="다람쥐 헌 쳇바퀴에 타고파"
   fontWeight={700}
 />
 
-## Body
+## Body (400)
 
 <Typeset
   fontSizes={[
-    parseInt(theme.fontSizes.body1),
-    parseInt(theme.fontSizes.body2),
-    parseInt(theme.fontSizes.body3),
+    theme.fontSizes.fontSize1,
+    theme.fontSizes.fontSize2,
+    theme.fontSizes.fontSize3,
+    theme.fontSizes.fontSize4,
+    theme.fontSizes.fontSize5,
+    theme.fontSizes.fontSize6,
+    theme.fontSizes.fontSize7,
+    theme.fontSizes.fontSize8,
+    theme.fontSizes.fontSize9,
   ]}
-  sampleText="다람쥐 헌 쳇바퀴에 타고파"
-  fontWeight={400}
-/>
-
-## Others
-
-<Typeset
-  fontSizes={[
-    parseInt(theme.fontSizes.caption),
-    parseInt(theme.fontSizes.buttonLg),
-    parseInt(theme.fontSizes.buttonMd),
-    parseInt(theme.fontSizes.buttonSm),
-    parseInt(theme.fontSizes.label),
-    parseInt(theme.fontSizes.chip),
-  ]}
-  sampleText="다람쥐 헌 쳇바퀴에 타고파"
   fontWeight={400}
 />
