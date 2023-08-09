@@ -12,6 +12,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@radix-ui/themes": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -28,6 +29,7 @@
     "@storybook/react": "^7.2.1",
     "@storybook/react-vite": "^7.2.1",
     "@storybook/testing-library": "^0.2.0",
+    "@types/node": "^20.4.9",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@types/styled-components": "^5.1.26",
@@ -44,6 +46,7 @@
     "storybook": "^7.2.1",
     "styled-components": "^6.0.7",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vite-tsconfig-paths": "^4.2.0"
   }
 }
