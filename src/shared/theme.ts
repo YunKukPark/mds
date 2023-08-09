@@ -1,108 +1,121 @@
-const fontSizes = {
-  h1: '72px',
-  h2: '60px',
-  h3: '48px',
-  h4: '34px',
-  h5: '24px',
-  h6: '22px',
-  body1: '20px',
-  body2: '16px',
-  body3: '14px',
-  caption: '12px',
-  buttonLg: '16px',
-  buttonMd: '14px',
-  buttonSm: '12px',
-  label: '12px',
-  chip: '13px',
-};
+import {
+  blue,
+  blueDark,
+  gray,
+  grayDark,
+  green,
+  greenDark,
+  red,
+  violet,
+  whiteA,
+  yellow,
+  yellowDark,
+} from './tokens/colors';
+import { fontSizes, letterSpacings, lineHeights } from './tokens/typography';
 
-const lineHeights = {
-  h1: '72px',
-  h2: '60px',
-  h3: '48px',
-  h4: '34px',
-  h5: '28px',
-  h6: '22px',
-  body1: '26px',
-  body2: '24px',
-  body3: '18px',
-  caption: '18px',
-  buttonLg: '24px',
-  buttonMd: '20px',
-  buttonSm: '16px',
-  label: '16px',
-  chip: '20px',
-};
-
-const letterSpacings = {
-  h1: '0.5px',
-  h2: '0.5px',
-  h3: '0.5px',
-  h4: '0.5px',
-  h5: '0.5px',
-  h6: '0.5px',
-  body1: '0.5px',
-  body2: '0.5px',
-  body3: '0.5px',
-  caption: '0.5px',
-  buttonLg: '0.5px',
-  buttonMd: '0.5px',
-  buttonSm: '0.5px',
-  label: '0.5px',
-  chip: '0.5px',
-};
-
-const colors = {
+const lightColors = {
   primary: {
-    main: '#6B68FF',
-    light: '#7B61FF',
-    dark: '#4E4BC9',
+    light: blue.blue6,
+    main: blue.blue9,
+    dark: blue.blue8,
   },
+
   secondary: {
-    main: '#26C4F6',
-    light: '#50D5FF',
-    dark: '#29A1C7',
+    light: violet.violet6,
+    main: violet.violet9,
+    dark: violet.violet8,
   },
-  error: {
-    main: '#E94E7C',
-    light: '#F63B73',
-    dark: '#D6295D',
+
+  tertiary: {
+    light: yellow.yellow6,
+    main: yellow.yellow9,
+    dark: yellow.yellow8,
   },
-  warning: {
-    main: '#F79942',
-    light: '#FF9040',
-    dark: '#DE6B18',
-  },
-  info: {
-    main: '#4FB1F9',
-    light: '#40BAFF',
-    dark: '#2199DC',
-  },
+
   success: {
-    main: '#55C861',
-    light: '#36D146',
-    dark: '#1EAA2C',
+    light: green.green6,
+    main: green.green9,
+    dark: green.green8,
+  },
+
+  warning: {
+    light: yellow.yellow6,
+    main: yellow.yellow9,
+    dark: yellow.yellow8,
+  },
+
+  error: {
+    light: red.red6,
+    main: red.red9,
+    dark: red.red8,
+  },
+
+  info: {
+    light: blue.blue6,
+    main: blue.blue9,
+    dark: blue.blue8,
   },
   text: {
-    primary: '#000000',
-    secondary: '#CFCFCF',
-    disabled: 'rgba(256, 256, 256, 0.3)',
+    primary: gray.gray12,
+    secondary: gray.gray10,
+    disabled: gray.gray8,
+    hint: gray.gray8,
   },
-  others: {
-    background: '#FEFEFE',
-    divider: '#E0E0E0',
-    border: 'rgba(0, 0, 0, 0.23)',
-    backdropOverlay: 'rgba(0, 0, 0, 0.5)',
-    standardInputLine: '#E0E0E0',
-    placeholder: '#CFCFCF',
+
+  white: {
+    100: whiteA.whiteA1,
+    200: whiteA.whiteA2,
+    300: whiteA.whiteA3,
+    400: whiteA.whiteA4,
+    500: whiteA.whiteA5,
+    600: whiteA.whiteA6,
+    700: whiteA.whiteA7,
+    800: whiteA.whiteA8,
+    900: whiteA.whiteA12,
+  },
+  gray: {
+    100: gray.gray2,
+    200: gray.gray3,
+    300: gray.gray4,
+    400: gray.gray5,
+    500: gray.gray6,
+    600: gray.gray7,
+    700: gray.gray8,
+    800: gray.gray10,
+    900: gray.gray12,
   },
 };
 
-const theme = {
-  colors,
+const darkColors = {
+  ...blueDark,
+  ...greenDark,
+  ...yellowDark,
+  ...grayDark,
+
+  accent1: blueDark.blue1,
+  accent2: blueDark.blue2,
+  info1: blueDark.blue1,
+  info2: blueDark.blue2,
+
+  success1: greenDark.green1,
+  success2: greenDark.green2,
+  valid1: greenDark.green1,
+  valid2: greenDark.green2,
+
+  warning1: yellowDark.yellow1,
+  warning2: yellowDark.yellow2,
+  pending1: yellowDark.yellow1,
+  pending2: yellowDark.yellow2,
+};
+
+export const theme = {
+  colors: lightColors,
   fontSizes,
   lineHeights,
   letterSpacings,
 };
 
-export default theme;
+export const darkTheme = {
+  ...theme,
+  colors: darkColors,
+};
