@@ -1,0 +1,4 @@
+import{j as t}from"./jsx-runtime-4ca860c5.js";import{M as i,C as c,b as a}from"./index-6b40f856.js";import{t as p}from"./theme-c4caa7db.js";import{u as n}from"./index-e744116c.js";import"./index-61bf1805.js";import"./_commonjsHelpers-de833af9.js";import"./iframe-a5eeeb12.js";import"../sb-preview/runtime.js";import"./index-d475d2ea.js";import"./index-6a5bd4ef.js";import"./index-d37d4223.js";import"./index-356e4a49.js";import"./grayscale-8b4f2805.js";function s(o){const r=Object.assign({h1:"h1"},n(),o.components);return t.jsxs(t.Fragment,{children:[t.jsx(i,{title:"theme/Colors"}),`
+`,t.jsx(r.h1,{id:"colors",children:"Colors"}),`
+`,t.jsx(c,{children:Object.entries(p.colors).map(([e,m])=>t.jsx(a,{title:e,colors:m},e))})]})}function X(o={}){const{wrapper:r}=Object.assign({},n(),o.components);return r?t.jsx(r,Object.assign({},o,{children:t.jsx(s,o)})):s(o)}export{X as default};
+//# sourceMappingURL=Color-1039f8d2.js.map
