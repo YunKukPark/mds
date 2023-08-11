@@ -5,7 +5,9 @@ import {
   grayDark,
   green,
   greenDark,
+  primaryBlue,
   red,
+  themeGray,
   violet,
   whiteA,
   yellow,
@@ -15,9 +17,18 @@ import { fontSizes, letterSpacings, lineHeights } from './tokens/typography';
 
 const lightColors = {
   primary: {
-    light: blue.blue6,
-    main: blue.blue9,
-    dark: blue.blue8,
+    1: primaryBlue.primaryBlue1,
+    2: primaryBlue.primaryBlue2,
+    3: primaryBlue.primaryBlue3,
+    4: primaryBlue.primaryBlue4,
+    5: primaryBlue.primaryBlue5,
+    6: primaryBlue.primaryBlue6,
+    7: primaryBlue.primaryBlue7,
+    8: primaryBlue.primaryBlue8,
+    9: primaryBlue.primaryBlue9,
+    10: primaryBlue.primaryBlue10,
+    11: primaryBlue.primaryBlue11,
+    12: primaryBlue.primaryBlue12,
   },
 
   secondary: {
@@ -55,6 +66,7 @@ const lightColors = {
     main: blue.blue9,
     dark: blue.blue8,
   },
+
   text: {
     primary: gray.gray12,
     secondary: gray.gray10,
@@ -73,16 +85,20 @@ const lightColors = {
     800: whiteA.whiteA8,
     900: whiteA.whiteA12,
   },
+
   gray: {
-    100: gray.gray2,
-    200: gray.gray3,
-    300: gray.gray4,
-    400: gray.gray5,
-    500: gray.gray6,
-    600: gray.gray7,
-    700: gray.gray8,
-    800: gray.gray10,
-    900: gray.gray12,
+    1: themeGray.gray1,
+    2: themeGray.gray2,
+    3: themeGray.gray3,
+    4: themeGray.gray4,
+    5: themeGray.gray5,
+    6: themeGray.gray6,
+    7: themeGray.gray7,
+    8: themeGray.gray8,
+    9: themeGray.gray9,
+    10: themeGray.gray10,
+    11: themeGray.gray11,
+    12: themeGray.gray12,
   },
 };
 

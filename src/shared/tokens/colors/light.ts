@@ -13,6 +13,21 @@ export const gray = {
   gray12: 'hsl(0, 0%, 12.5%)',
 };
 
+export const themeGray = {
+  gray1: '#ffffff',
+  gray2: '#eff2f4',
+  gray3: '#e2e7eb',
+  gray4: '#c7d0d8',
+  gray5: '#acb9c5',
+  gray6: '#91a3b2',
+  gray7: '#768c9f',
+  gray8: '#5d7285',
+  gray9: '#485967',
+  gray10: '#333f49',
+  gray11: '#1e252b',
+  gray12: '#0a0c0d',
+};
+
 export const mauve = {
   mauve1: 'hsl(300, 26.0%, 99.0%)',
   mauve2: 'hsl(270, 20.0%, 98.0%)',
@@ -26,6 +41,21 @@ export const mauve = {
   mauve10: 'hsl(250, 5.0%, 52.3%)',
   mauve11: 'hsl(252, 5.0%, 40.7%)',
   mauve12: 'hsl(260, 10.0%, 13.5%)',
+};
+
+export const primaryBlue = {
+  primaryBlue1: '#EFF2F4',
+  primaryBlue2: '#CFE8FC',
+  primaryBlue3: '#BCDFFB',
+  primaryBlue4: '#95CDF9',
+  primaryBlue5: '#6EBBF7',
+  primaryBlue6: '#48A8F5',
+  primaryBlue7: '#2196f3',
+  primaryBlue8: '#0c7fda',
+  primaryBlue9: '#0966af',
+  primaryBlue10: '#074c83',
+  primaryBlue11: '#053358',
+  primaryBlue12: '#031d2d',
 };
 
 export const slate = {
