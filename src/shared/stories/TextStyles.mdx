@@ -5,11 +5,11 @@ import { theme } from '@shared/theme';
 
 # Typography
 
-**Font:** Noto Sans KR
+**Font:** Pretendard
 
-**Weights:** 400(regular), 500(medium), 700(bold), 900(black)
+**Weights:** 300(thin), 400(regular), 500(medium), 700(bold), 900(black)
 
-## Title (900)
+## 900
 
 <Typeset
   fontSizes={[
@@ -18,10 +18,11 @@ import { theme } from '@shared/theme';
     theme.fontSizes.fontSize9,
   ]}
   sampleText="다람쥐 헌 쳇바퀴에 타고파"
+  fontFamily={theme.fontFamily}
   fontWeight={900}
 />
 
-## Headers (700)
+## 700
 
 <Typeset
   fontSizes={[
@@ -36,10 +37,11 @@ import { theme } from '@shared/theme';
     theme.fontSizes.fontSize9,
   ]}
   sampleText="다람쥐 헌 쳇바퀴에 타고파"
+  fontFamily={theme.fontFamily}
   fontWeight={700}
 />
 
-## Body (400)
+## 400
 
 <Typeset
   fontSizes={[
@@ -54,4 +56,23 @@ import { theme } from '@shared/theme';
     theme.fontSizes.fontSize9,
   ]}
   fontWeight={400}
+  fontFamily={theme.fontFamily}
+/>
+
+## 300
+
+<Typeset
+  fontSizes={[
+    theme.fontSizes.fontSize1,
+    theme.fontSizes.fontSize2,
+    theme.fontSizes.fontSize3,
+    theme.fontSizes.fontSize4,
+    theme.fontSizes.fontSize5,
+    theme.fontSizes.fontSize6,
+    theme.fontSizes.fontSize7,
+    theme.fontSizes.fontSize8,
+    theme.fontSizes.fontSize9,
+  ]}
+  fontWeight={300}
+  fontFamily={theme.fontFamily}
 />

@@ -15,6 +15,8 @@ import {
 } from './tokens/colors';
 import { fontSizes, letterSpacings, lineHeights } from './tokens/typography';
 
+const fontFamily = '"Pretendard Variable" , "Noto Sans KR", sans-serif';
+
 const lightColors = {
   primary: {
     1: primaryBlue.primaryBlue1,
@@ -125,6 +127,7 @@ const darkColors = {
 };
 
 export const theme = {
+  fontFamily,
   colors: lightColors,
   fontSizes,
   lineHeights,
