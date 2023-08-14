@@ -1,3 +1,5 @@
+export const fontFamily = '"Pretendard Variable" , "Noto Sans KR", sans-serif';
+
 export const fontSizes = {
   fontSize1: '12px',
   fontSize2: '14px',

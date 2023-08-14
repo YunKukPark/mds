@@ -13,9 +13,15 @@ import {
   yellow,
   yellowDark,
 } from './tokens/colors';
-import { fontSizes, letterSpacings, lineHeights } from './tokens/typography';
 
-const fontFamily = '"Pretendard Variable" , "Noto Sans KR", sans-serif';
+import {
+  fontFamily,
+  fontSizes,
+  letterSpacings,
+  lineHeights,
+} from './tokens/typography';
+
+import { breakpoint } from './tokens/breakpoint';
 
 const lightColors = {
   primary: {
@@ -128,6 +134,7 @@ const darkColors = {
 
 export const theme = {
   fontFamily,
+  breakpoint,
   colors: lightColors,
   fontSizes,
   lineHeights,

@@ -9,6 +9,7 @@ import {
 } from '@radix-ui/themes';
 
 import '@radix-ui/themes/styles.css';
+import Box from './components/layout/Box/Box';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Button variant="surface">Back</Button>
           <Button>Send</Button>
         </Grid>
+        <Box size="9">hi</Box>
       </Flex>
     </Card>
   );
