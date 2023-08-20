@@ -54,33 +54,33 @@ const primaryButtonStyle = css`
 `;
 
 const secondaryButtonStyle = css`
-  color: ${({ theme }) => theme.colors.primary};
-  background-color: ${({ theme }) => theme.colors.border};
+  color: ${({ theme }) => theme.colors.white[900]};
+  background-color: ${({ theme }) => theme.colors.primary[6]};
   transition: background-color 200ms ease-in-out;
 
   &:not(:disabled):hover {
-    background-color: ${({ theme }) => theme.colors.tertiary};
+    background-color: ${({ theme }) => theme.colors.primary[5]};
   }
 `;
 
 const outlinedButtonStyle = css`
-  color: ${({ theme }) => theme.colors.blue};
-  background-color: ${({ theme }) => theme.colors.white};
-  border: 1px solid ${({ theme }) => theme.colors.blue};
+  color: ${({ theme }) => theme.colors.primary[6]};
+  background-color: ${({ theme }) => theme.colors.white[100]};
+  border: 1px solid ${({ theme }) => theme.colors.primary[6]};
   transition: background-color 200ms ease-in-out;
 
   &:not(:disabled):hover {
-    background-color: ${({ theme }) => theme.colors.blueLight};
+    background-color: ${({ theme }) => theme.colors.gray[6]};
   }
 `;
 
 const ghostButtonStyle = css`
-  color: ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.primary[6]};
   background-color: transparent;
   transition: color 200ms ease-in-out;
 
   &:not(:disabled):hover {
-    background-color: ${({ theme }) => theme.colors.secondary};
+    background-color: ${({ theme }) => theme.colors.gray[6]};
   }
 `;
 
