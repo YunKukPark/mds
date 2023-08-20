@@ -5,6 +5,7 @@ import { ThemeProvider, styled } from 'styled-components';
 import { flexBox } from '@shared/utils';
 import App from '@src/App';
 import { theme } from './shared/theme';
+import '@src/reset.css';
 
 const S = {
   Container: styled.div`

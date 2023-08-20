@@ -7,8 +7,8 @@ import {
   greenDark,
   primaryBlue,
   red,
+  secondaryRed,
   themeGray,
-  violet,
   whiteA,
   yellow,
   yellowDark,
@@ -40,9 +40,9 @@ const lightColors = {
   },
 
   secondary: {
-    light: violet.violet6,
-    main: violet.violet9,
-    dark: violet.violet8,
+    light: secondaryRed.secondaryRed7,
+    main: secondaryRed.secondaryRed6,
+    dark: secondaryRed.secondaryRed8,
   },
 
   tertiary: {

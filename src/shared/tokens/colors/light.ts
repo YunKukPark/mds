@@ -58,6 +58,21 @@ export const primaryBlue = {
   primaryBlue12: '#031d2d',
 };
 
+export const secondaryRed = {
+  secondaryRed1: '#FCE8E6',
+  secondaryRed2: '#F9CFCB',
+  secondaryRed3: '#F6B6B0',
+  secondaryRed4: '#F18A7A',
+  secondaryRed5: '#ED5E44',
+  secondaryRed6: '#F32D2D',
+  secondaryRed7: '#F20',
+  secondaryRed8: '#CE0000',
+  secondaryRed9: '#9D220B',
+  secondaryRed10: '#821D0A',
+  secondaryRed11: '#671808',
+  secondaryRed12: '#4C1207',
+};
+
 export const slate = {
   slate1: 'hsl(240, 22.0%, 99.0%)',
   slate2: 'hsl(240, 20.0%, 98.0%)',
